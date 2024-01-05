@@ -1,9 +1,9 @@
 import Image from "next/image"
-import logo from '../../../assets/image 12.svg';
+import logo from '../../../../public/Group 1911.svg';
 
 export function Header(){
     return(
-        <header className="">
+        <header className="bg-bgcol">
             <Image src={logo} alt="yhanko logo" className=""/>
         </header>
     )
