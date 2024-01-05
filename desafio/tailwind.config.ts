@@ -19,12 +19,14 @@ const config: Config = {
         'bcol': '#FF7EB6',
         'btext': '#FFFFFF',
         'btclick': '#F76680',
+      },
+      sizeandspacing:{
         'btwidth': '145px',
         'bthight': '45px',
         'bttop': '264px',
         'btleft': '161px',
-        'btraddius': '7px'
-      },
+        'btraddius': '7px',
+      }
     },
   },
   plugins: [],
