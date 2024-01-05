@@ -1,8 +1,8 @@
-
+import Image from "next/image"
 
 export default function Home() {
   return (
-      <div>
+      <div className="bg-bgcol">
           <h1>Vamos codar</h1>
       </div>
   )
