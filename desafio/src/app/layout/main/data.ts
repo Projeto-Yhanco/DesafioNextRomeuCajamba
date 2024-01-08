@@ -1,7 +1,7 @@
 import Osvaldo from '../../../assets/Osvaldo.svg';
 import Romeu from '../../../assets/Romeu.svg';
 import Nicolau from '../../../assets/Milvaneo.svg';
-import Lourenco from '../../p';
+import Lourenco from '../../../assets/Loureco.svg';
 
 
 
@@ -50,5 +50,5 @@ export const dataYhanko: dataType = {
     outro projeto, do pensamento para o template ate ao codigo
     ate ao codigp, Yhanko é o fututo.
     `,
-    video: '../../public/video.webm'
+    video: '../../../assets/agricultura.mp4'
 }
