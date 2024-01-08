@@ -43,11 +43,11 @@ export function Main(){
     return(
         <main className="h-[400px]">
              <section className="w-[800px] h-[400px] ">
-        <div className="flex gap-4 mb-[50px]">
+        <div className="flex mb-[20px]">
           <button
             onMouseEnter={() => mouseActive("USERS")}
             onMouseLeave={mouseInative}
-            className="px-[2rem] py-[0.5rem] rounded-sm bg-[#F76680] text-slate-100 font-semibold
+            className="px-[2rem] py-[0.5rem] mt-[14px] ml-[168px] w-btwidth h-bthight rounded-sm bg-[#F76680] text-slate-100 font-semibold
          text-[14px] hover:bg-[#FF7EB6]"
           >
             Users
@@ -56,7 +56,7 @@ export function Main(){
           <button
             onMouseEnter={() => mouseActive("ABOUT")}
             onMouseLeave={mouseInative}
-            className="px-[2rem] py-[0.5rem] rounded-sm bg-[#F76680] text-slate-100 font-semibold
+            className="px-[2rem] py-[0.5rem] mt-[14px] ml-[168px] w-[145px] h-bthight rounded-sm bg-[#F76680] text-slate-100 font-semibold
          text-[14px] hover:bg-[#FF7EB6]"
           >
             About Yhanko
@@ -65,7 +65,7 @@ export function Main(){
           <button
             onMouseEnter={() => mouseActive("VIDEO")}
             onMouseLeave={mouseInative}
-            className="px-[2rem] py-[0.5rem] rounded-sm bg-[#F76680] text-slate-100 font-semibold
+            className="px-[2rem] py-[0.5rem] mt-[14px] ml-[168px]  rounded-sm bg-[#F76680] text-slate-100 font-semibold
          text-[14px] hover:bg-[#FF7EB6]"
           >
             History
